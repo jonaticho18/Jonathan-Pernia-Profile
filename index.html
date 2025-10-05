@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Jonathan Pernia | Paid Media & Funnels</title>
-  <meta name="description" content="Paid Media Specialist (Meta & Google Ads). Funnels, Tracking (GA4/GTM), Automatizaciones MAKE. Disponible after-hours.">
+  <meta name="description" content="Paid Media Specialist (Meta & Google Ads). Funnels, Tracking (GA4/GTM), and MAKE automations. Available after-hours for audits, rescues, and fixed-scope tasks.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -14,15 +14,20 @@
   <meta property="og:image" content="img/profile.png">
   <style>
     :root{
-      --bg:#0b1b2a;        /* azul oscuro moderno */
+      --bg:#0b1b2a;
       --card:#0f2438;
       --muted:#9fb3c8;
       --text:#eaf2fb;
-      --brand:#56b2ff;     /* celeste acento */
-      --brand-2:#7df3c6;   /* verde acento */
+      --brand:#56b2ff;
+      --brand-2:#7df3c6;
     }
     *{box-sizing:border-box}
-    html,body{margin:0;padding:0;background:linear-gradient(160deg,#0b1420 0%, var(--bg) 60%);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif;}
+    html,body{
+      margin:0;padding:0;
+      background:linear-gradient(160deg,#0b1420 0%, var(--bg) 60%);
+      color:var(--text);
+      font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif;
+    }
     a{color:inherit;text-decoration:none}
     .container{max-width:1100px;margin:0 auto;padding:24px}
     header{position:sticky;top:0;background:rgba(11,27,42,.65);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.06);z-index:50}
@@ -71,7 +76,7 @@
     "name":"Jonathan Pernia",
     "jobTitle":"Paid Media Specialist",
     "image":"img/profile.png",
-    "url":"https://<tu-usuario>.github.io/",
+    "url":"https://jonathanpernia.github.io/",
     "sameAs":["https://www.linkedin.com/in/jonathan-alberto-pernia-ochoa-9bb34813b/"],
     "knowsAbout":["Meta Ads","Google Ads","ClickFunnels","GA4","Google Tag Manager","MAKE automations","Lead Generation","E-commerce Ads"],
     "address":{"@type":"PostalAddress","addressLocality":"Córdoba","addressCountry":"AR"}
@@ -81,12 +86,12 @@
 <body>
   <header>
     <div class="container">
-      <nav>
+      <nav aria-label="Primary">
         <div class="brand">Jonathan Pernia</div>
         <div class="nav-links">
-          <a href="#servicios">Servicios</a>
-          <a href="#experiencia">Experiencia</a>
-          <a href="#contacto">Contacto</a>
+          <a href="#services">Services</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
         </div>
       </nav>
     </div>
@@ -94,32 +99,32 @@
 
   <main class="container">
     <!-- HERO -->
-    <section class="hero">
+    <section class="hero" id="home">
       <div class="grid">
         <div>
           <span class="tag">Meta & Google Ads • Funnels • Tracking</span>
-          <h1 class="title">Paid Media Specialist <span class="muted">| Embudos y Automatizaciones</span></h1>
+          <h1 class="title">Paid Media Specialist <span class="muted">| Funnels & Automations</span></h1>
           <p class="subtitle">
-            Ayudo a empresas a crecer con campañas de <strong>Meta/Google</strong>, 
-            <strong>funnels en ClickFunnels</strong> y <strong>tracking GA4/GTM</strong>. 
-            Disponible <strong>after-hours</strong> para auditorías, rescates y tareas cerradas.
+            I help companies grow with <strong>Meta/Google Ads</strong>, 
+            <strong>ClickFunnels-based funnels</strong>, and <strong>GA4/GTM tracking</strong>. 
+            Available <strong>after-hours</strong> for audits, rescue projects, and fixed-scope tasks.
           </p>
           <div class="cta">
-            <a class="btn" href="https://wa.me/543517465758?text=Hola%20Jonathan,%20vi%20tu%20portfolio%20y%20quisiera%20hablar.">💬 WhatsApp</a>
-            <a class="btn btn-outline" href="docs/CV_JonathanPernia.pdf" target="_blank" rel="noopener">⬇️ Descargar CV</a>
+            <a class="btn" href="https://wa.me/543517465758?text=Hi%20Jonathan,%20I%20visited%20your%20site%20and%20would%20like%20to%20chat.">💬 WhatsApp</a>
+            <a class="btn btn-outline" href="docs/CV_JonathanPernia.pdf" download>⬇️ Download CV</a>
             <a class="btn btn-outline" href="https://www.linkedin.com/in/jonathan-alberto-pernia-ochoa-9bb34813b/" target="_blank" rel="noopener">in LinkedIn</a>
           </div>
         </div>
         <div style="display:flex;justify-content:center;align-items:center">
-          <!-- coloca tu imagen en /img/profile.png -->
-          <img class="avatar" src="img/profile.png" alt="Foto de Jonathan Pernia">
+          <!-- your image at /img/profile.png -->
+          <img class="avatar" src="img/profile.png" alt="Portrait of Jonathan Pernia">
         </div>
       </div>
     </section>
 
     <!-- SKILLS -->
-    <section class="card">
-      <h2>Competencias clave</h2>
+    <section class="card" aria-labelledby="skills-title">
+      <h2 id="skills-title">Core Skills</h2>
       <div>
         <span class="pill">Meta Ads (Facebook/Instagram)</span>
         <span class="pill">Google Ads</span>
@@ -127,67 +132,69 @@
         <span class="pill">GA4 & Google Tag Manager</span>
         <span class="pill">Lead Generation</span>
         <span class="pill">E-commerce Ads</span>
-        <span class="pill">Automatizaciones MAKE/Zapier</span>
-        <span class="pill">Copywriting de anuncios</span>
+        <span class="pill">MAKE/Zapier Automations</span>
+        <span class="pill">Ad Copywriting</span>
         <span class="pill">Reporting & Analytics</span>
       </div>
     </section>
 
-    <!-- SERVICIOS -->
-    <section id="servicios" class="two-col">
+    <!-- SERVICES -->
+    <section id="services" class="two-col" aria-labelledby="services-title">
       <div class="card">
-        <h2>Servicios rápidos (after-hours)</h2>
+        <h2 id="services-title">Fast Services (after-hours)</h2>
         <ul class="clean">
-          <li><strong>Meta Ads Audit Express</strong> — checklist, 10 quick wins, plan 30 días (PDF + Loom).</li>
-          <li><strong>Tracking Fix (GA4 + Pixel + GTM)</strong> — mapeo de eventos, implementación y QA.</li>
-          <li><strong>Google Ads Rescue</strong> — reestructura básica + negativas + 3 tests iniciales.</li>
-          <li><strong>Creative Sprint</strong> — 6 copys, 3 ángulos y guía de formatos (Stories/Reels/Feed).</li>
-          <li><strong>Funnel QuickStart</strong> — landing + thank-you + tracking base + email 1.</li>
+          <li><strong>Meta Ads Audit Express</strong> — checklist, 10 quick wins, and a 30-day plan (PDF + Loom).</li>
+          <li><strong>Tracking Fix (GA4 + Meta Pixel + GTM)</strong> — event mapping, implementation, and QA.</li>
+          <li><strong>Google Ads Rescue</strong> — lean restructure + negatives + 3 initial tests.</li>
+          <li><strong>Creative Sprint</strong> — 6 copy variants, 3 angles, and a formats guide (Stories/Reels/Feed).</li>
+          <li><strong>Funnel QuickStart</strong> — landing + thank-you + base tracking + first email.</li>
         </ul>
       </div>
       <div class="card">
-        <h2>Cómo trabajo</h2>
+        <h2>How I Work</h2>
         <ul class="clean">
-          <li>Brief claro → alcance y entregables por escrito.</li>
-          <li>Implementación con <strong>checklist y QA</strong>.</li>
-          <li>Entrega con <strong>documentación + video Loom</strong>.</li>
-          <li>Opcional: mantenimiento ligero (4–6 h/mes).</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- EXPERIENCIA -->
-    <section id="experiencia" class="two-col">
-      <div class="card">
-        <h2>Experiencia destacada</h2>
-        <ul class="clean">
-          <li><strong>Paid Media Specialist – Law Firm Marketing Pros</strong> (U.S.) · Funnels y performance para firmas legales.</li>
-          <li><strong>E-commerce (AR)</strong> · Campañas Meta/Google para carteras; 10× ROAS mensual.</li>
-          <li><strong>Home Services (U.S./AR)</strong> · Generación de leads con automatizaciones MAKE.</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h2>Resultados (snapshot)</h2>
-        <ul class="clean">
-          <li>↓ CPL hasta 38% en 30 días (lead gen).</li>
-          <li>3.4× ROAS en campañas de remarketing.</li>
-          <li>Implementaciones GA4/GTM con documentación y QA.</li>
+          <li>Clear brief → written scope and deliverables.</li>
+          <li>Implementation with <strong>checklists & QA</strong>.</li>
+          <li>Delivery with <strong>documentation + Loom video</strong>.</li>
+          <li>Optional: light maintenance (4–6 h/mo).</li>
         </ul>
       </div>
     </section>
 
-    <!-- CONTACTO -->
-    <section id="contacto" class="card">
-      <h2>Contacto</h2>
-      <p class="subtitle">Córdoba, Argentina · Español / English · Trabajo remoto</p>
+    <!-- EXPERIENCE -->
+    <section id="experience" class="two-col" aria-labelledby="experience-title">
+      <div class="card">
+        <h2 id="experience-title">Selected Experience</h2>
+        <ul class="clean">
+          <li><strong>Paid Media Specialist — Law Firm Marketing Pros</strong> (U.S.) · Funnels and performance for law firms.</li>
+          <li><strong>E-commerce (AR)</strong> · Meta & Google Ads for a handbag brand; 10× monthly ROAS.</li>
+          <li><strong>Home Services (U.S./AR)</strong> · Lead gen with MAKE automations.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Results (snapshot)</h2>
+        <ul class="clean">
+          <li>↓ CPL up to 38% in 30 days (lead gen).</li>
+          <li>3.4× ROAS on remarketing campaigns.</li>
+          <li>GA4/GTM implementations with documentation and QA.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="card" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <p class="subtitle">Córdoba, Argentina · Spanish / English · Remote work</p>
       <div class="cta">
-        <a class="btn" href="https://wa.me/543517465758?text=Hola%20Jonathan,%20quisiera%20coordinar%20una%20auditor%C3%ADa%20de%20anuncios.">Hablar por WhatsApp</a>
-        <a class="btn btn-outline" href="mailto:tu.email@dominio.com">Escríbeme por email</a>
+        <a class="btn" href="https://wa.me/543517465758?text=Hi%20Jonathan,%20I%20would%20like%20to%20book%20an%20ads%20audit.">Chat on WhatsApp</a>
+        <a class="btn btn-outline" href="mailto:your.email@domain.com">Email me</a>
       </div>
     </section>
   </main>
 
-  <a class="wa-fab" aria-label="WhatsApp" href="https://wa.me/543517465758?text=Hola%20Jonathan,%20vi%20tu%20web%20y%20quiero%20hablar.">🟢 WhatsApp</a>
+  <!-- Floating WhatsApp -->
+  <a class="wa-fab" aria-label="WhatsApp"
+     href="https://wa.me/543517465758?text=Hi%20Jonathan,%20I%20visited%20your%20website%20and%20want%20to%20talk.">🟢 WhatsApp</a>
 
   <footer>
     <div class="container">
